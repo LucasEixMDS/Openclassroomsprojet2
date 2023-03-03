@@ -1,7 +1,115 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin : 0;
 }
+
+/**** Header ****/
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+  }
+
+ .heads:hover{
+    border-top: solid #0065FC;
+    text-decoration: none;
+    padding-top: 19px;
+  }
+
+  .header, nav {
+    margin-bottom : 40px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+header,
+footer {
+  background-color: white;
+  padding : 20px 5px  ;
+  
+}
+
+
+
+
+/*** premierblock***/
+
+.premierblock {
+    display: flex;
+    flex-direction: column;
+   padding: 10px ;
+}
+
+
+.titre-hebergement .titreh1 {
+    margin-bottom: 25px ;
+   font-size: 20px ;
+   margin-bottom: 5px;
+}
+
+
+/**** Formulaire de recherche ****/
+
+
+
+  form {
+   
+    padding : 10px;
+    margin-top: 10px;
+  }
+  input {
+   
+    padding: 0px 20px;
+    border: 2px solid #0065FC;
+    font-size: 16px;
+  }
+  .search {
+    width: 135px;
+    height: 49px ;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px ;    
+}
+
+  .submit {
+    width: 132px ;
+    height: 49px ;
+    background-color: #0065FC;
+    color :#ffffff;
+    
+    border-radius: 0px 15px 15px 0px;
+  }
+
+.imagevector{
+    position:relative;
+
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+
+
+
+
+
+/**** bouton-catégories ****/
+
+.categories{
+    display : flex ;
+    flex-direction: row;
+    padding : 4px 19px ;
+    
+    
+}
+
+
+
+
+
+
 
 :root {
     --main-color: #0065FC;
