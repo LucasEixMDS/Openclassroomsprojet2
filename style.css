@@ -1,6 +1,5 @@
 
 
-
 /****** General ***********/
 
 * {
@@ -13,7 +12,7 @@ html{
    }
    
    body {
-       margin: 0;
+     
        box-sizing: border-box;
        font-family: 'Raleway', sans-serif;
    }
@@ -45,7 +44,7 @@ nav a {
     border-top: solid #0065FC;
     color: #0065FC;
     text-decoration: none;
-    padding-top: 19px;
+    padding-top: 32px;
   }
 
   .header, nav {
@@ -207,6 +206,7 @@ h2{
     justify-content: space-evenly;
     flex-direction: column;
     padding: 10px;
+    box-shadow: 0 0 16px #0000002e;
 }
 
 .block6cards img {
@@ -222,8 +222,15 @@ h2{
     height: 100%;
 }
 
+.photo1 {
+    max-height: 100% ;
+    object-fit: contain;
+}
 
-
+.photo {
+    max-height: 80% ;
+    object-fit: cover;
+}
 
 /******** Css de base ********/
 
@@ -340,8 +347,64 @@ body {
     margin-bottom: 5px;
 }
 
+  /****** Activites à Marseille *******/
+
+.titreactivites {
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 22px ;
+    padding-left: 5px;
+}
 
 
+.activitesblock {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.activitesblockphoto{
+    box-shadow: 0 0 16px #0000002e;
+    width: 297px;
+    height:440px ;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.activitesblockphoto img {
+    object-fit: cover;
+    width: 100%;
+    height:380px ;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.activitesblockphoto h4 {
+    margin-top: 10px;
+    margin-left: 17px;
+    font-size: 16px ;
+}
+
+         /***** Footer *******/
+
+.footerbooki {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+}
+
+.footercolonne {
+    margin-right: 280px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.footertexte {
+    margin: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
