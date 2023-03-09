@@ -20,9 +20,58 @@ html{
    main {
        margin: 0 50px 50px;
    }
-p{
+    p{
     font-size: 16px;
     padding-left: 5px;
+}
+
+/**** animation survol souris footer *****/
+
+.footerbooki a {
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.footerbooki a:hover {
+    text-decoration:underline;
+    color: #202021;
+    
+}
+
+/**** animation survol souris activités *****/
+.activitesblock a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.activitesblock a:hover{
+    color:black ;
+    -webkit-transform:scale(1.03);
+}
+
+/**** animation survol souris les plus populaires *****/
+.populaires-cards a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.populaires-cards a:hover{
+    -webkit-transform:scale(1.20);
+}
+
+/**** animation survol souris hebergement *****/
+.block6cards a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.block6cards a:hover{
+    -webkit-transform:scale(1.03);
 }
 
 /********* Header **********/
