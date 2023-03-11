@@ -1,3 +1,67 @@
+/***** Page 2 test *****/
+
+.titreh1page2{
+    margin-right: 201px;
+}
+.tophotelstars{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.imagepage2{
+    border-radius: 25px 25px 25px 25px;
+}
+
+.top-article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-article {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.margintopstars{
+    margin-top: 1px;
+    margin-right: 2px;
+}
+
+.blockdroitepage2{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    max-width: 550px;
+    max-height: 700px;
+}
+
+.blockdroitepage3{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    max-width: 620px;
+    max-height: 700px;
+}
+
+
+.aminaimg img{ 
+    height: 486px;
+    width: 558px;
+}
+
+.mouetteimg  img{
+    height: 486px;
+    width: 641px;
+}
+
+.lamerimg img{
+    height: 486px;
+    width: 641px;
+}
 
 
 /****** General ***********/
