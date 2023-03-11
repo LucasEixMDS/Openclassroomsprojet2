@@ -251,6 +251,7 @@ h2{
     padding: 7px 11px 7px 11px;
 }
 
+
 /******** Hebergement marseille *******/
 
 
@@ -262,7 +263,7 @@ h2{
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     margin-top: 33px;
     height: 207px;
-    width: 250px;
+    width: 237px;
     margin-right: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -278,11 +279,19 @@ h2{
 
 .block6cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 14px;
-    width: 100%;
-    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr;
+    margin-bottom: 5px;
 }
+
+.photohaut{
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    height: 110px;
+    overflow: hidden;
+    margin: 5px;
+}
+
 
 .photo1 {
     max-height: 100% ;
@@ -292,6 +301,11 @@ h2{
 .photo {
     max-height: 80% ;
     object-fit: cover;
+}
+
+
+.afficherplus{
+    margin-top: 20px;
 }
 
 /******** Css de base ********/
