@@ -25,6 +25,19 @@ html{
     padding-left: 5px;
 }
 
+/******** animation survol afficher plus ******/
+
+.afficherplus a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #202021;
+}
+
+.afficherplus a:hover{
+    text-decoration: solid;
+    color: #0065FC;
+}
+
 /**** animation survol souris footer *****/
 
 .footerbooki a {
