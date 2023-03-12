@@ -3,6 +3,11 @@
 .titreh1page2{
     margin-right: 201px;
 }
+
+.titreh1page2canebiere{
+    margin-right: 161px;
+}
+
 .tophotelstars{
     display: flex;
     margin-bottom: 20px;
@@ -59,6 +64,11 @@
 }
 
 .lamerimg img{
+    height: 486px;
+    width: 641px;
+}
+
+.canebiereimg img{
     height: 486px;
     width: 641px;
 }
