@@ -857,7 +857,28 @@ main .populaires  {
 
 /***** activités mobile *****/
 
+.activitesblock{
+    flex-direction: column;
+    align-items: center;
+}
 
+.activitesblockphoto{
+    margin: 10px;
+    height: 207px;
+}
+
+.activitesblockphoto img {
+    height: 153px;
+}
+
+footer {
+    flex-direction: column;
+    
+}
+
+.footercolonne{
+    margin-right: 0px;
+}
 
 }
 
