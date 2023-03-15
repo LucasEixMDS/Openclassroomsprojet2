@@ -113,14 +113,14 @@ html{
 
 /**** animation survol souris footer *****/
 
-.footerbooki a {
+footer a {
     background-color: transparent;
     cursor: pointer;
     color: black;
     text-decoration: none;
 }
 
-.footerbooki a:hover {
+footer a:hover {
     text-decoration:underline;
     color: #202021;
     
@@ -231,7 +231,7 @@ h1 {
     display: flex;
   }
 
-  input {
+  button {
     padding: 0px 20px;
     border: 2px solid #0065FC ;
     font-size: 16px;
@@ -241,7 +241,11 @@ h1 {
     width: 135px;
     height: 45px ;
     border: 2px solid #F2F2F2;
+    font-weight: bolder;
+    
 }
+
+
 
   .submit {
     width: 132px ;
@@ -251,6 +255,11 @@ h1 {
     
     border-radius: 0px 15px 15px 0px;
   }
+
+  .submit>i{
+    display: none;
+    color:var(--colorWhite);
+}
 
 #boutongps {
     color: black;
@@ -597,11 +606,12 @@ body {
 
          /***** Footer *******/
 
-.footerbooki {
+footer {
     background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;  
+    flex-wrap: nowrap;
+    
 }
 
 .footercolonne {
@@ -655,8 +665,16 @@ body {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     
+main {
+    margin: 0 15px 50px;
+}
+
 body {
     font-size: 14px;
+    max-width: 767.98px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 h2 { 
@@ -667,11 +685,180 @@ h3{
     font-size: 15px;
 }
 
-/*** Header ****/ 
+/*** Header mobile  ****/ 
 
-header nav{
-    justify-content: center;
+
+header nav {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.logo{
+   display: flex;
+   justify-content: center;
+}
+
+header .headertouch{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+/***** titre + texte mobile ****/
+
+.premierblock{
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+
+h1 {
+    font-size: 20px;
+}
+
+.premierblock p {
+    font-size: 14px;
+}
+
+/**** Formulaire de recherche mobile ****/
+
+
+.rechercher {
+    width: 100%;
+}
+
+.search {
+    width: 60%;
+}
+
+form{
+    width: 100%;
+    padding: 0px;
+}
+
+.submit {
+    width: 49px;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    right: 16px;
+}
+
+input {
+    padding: 0px 20px 0px 24px;
+}
+
+.fa-search::before {
+
+    content: "\f002";
+   
+  }
+
+ .submit>span{
+    display: none;
+}
+
+.submit>i{
+    display: block;
+}
+
+
+.submit i {
+    margin: -5px;
+}
+
+/***** filtres mobile *****/
+
+.categorieslist {
+   display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+#categories{
+    margin: 0px;
+}
+
+.titreh2 {
+    padding: 15px 0px 15px 0px;
+}
+
+#buttonfam {
+    padding-right: 41px;
+}
+
+/***** info mobile *****/
+
+.info{
+    display :flex;
+    flex-wrap: nowrap;
+    margin: 25px 0 25px;
+}
+
+.iconInfo{
+    padding-right: 5px;
+}
+
+/***** Populaire mobile *****/
+
+.hebergements-and-populaires{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+main .populaires  {
+    margin-left: -15px;
+}
+
+.hebergements-and-populaires section {
+    border-radius: 0px;
+    padding-bottom: 20px;
+}
+.populaires{
+    width: 116%;
+    
+}
+.populaires-cards{
     flex-direction: column;
 }
 
+.populaires-cards .card{
+    width: 80%;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
+
+/***** hebergement mobile *****/
+
+.hebergements-and-populaires .hebergements{
+    background-color: white;
+    width: 100%;
+}
+
+.block6cards{
+    flex-direction: column;
+}
+
+.card1{
+    width: 100%;
+}
+
+.section-title{
+    padding-bottom: 0px ;
+    margin-top: 30px;
+}
+
+.afficherplus h4 {
+    font-size: 16px;
+}
+
+/***** activités mobile *****/
+
+
+
+}
+
+

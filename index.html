@@ -31,7 +31,7 @@
                         <div class="logo">
                         <img src="images/logo/Booki5.png" alt="Logo Booki">
                         </div>
-                        <div>
+                        <div class="headertouch">
                             <a href="#Hebergements" class="heads">Hébergements</a>
                             <a href="#Activités" class="heads">Activités</a>
                         </div>
@@ -51,7 +51,10 @@
                         <form> 
                                 <i id="boutongps" class="fa-solid fa-location-dot"></i>
                             <input type="text" name="text" class="search" placeholder="Marseille, France">
-                            <input type="submit" name="submit" class="submit" value="Rechercher">
+                            <button class="submit" aria-label="Rechercher">
+                                <span >Rechercher</span> 
+                                <i class="fas fa-search"></i> 
+                            </button>
                         </form>
                     </div>
                     
@@ -69,7 +72,7 @@
                                         <div class="categorietexte">Économique</div>
                                     </div>
                                     <!--bouton Famillial-->
-                                    <div class="bouton">   
+                                    <div class="bouton" id="buttonfam">   
                                         <div class="categoriesicon">
                                             <i class="fa-solid fa-child"></i>
                                         </div>
@@ -96,7 +99,7 @@
                             <div class="iconInfo">
                                 <i class="fas fa-info"></i>
                             </div>
-                                <p>Plus de 500 hébergements sont disponible dans cette zone</p>
+                                <p>Plus de 500 logements sont disponibles dans cette ville</p>
                         </div>
                 <!-----Hebergement marseille----->
                     <div class="hebergements-and-populaires">
@@ -367,7 +370,7 @@
             </main>
             <!-----Footer------>
                 <footer>
-                    <div class="footerbooki">
+                    
                         <div class="footercolonne">
                             <h3 class="footertexte">À propos</h3>
                                 <a href="#" class="footertexte">Fonctionnement du site</a>
@@ -384,7 +387,7 @@
                                 <a href="#" class="footertexte">Centre d'aide</a>
                                 <a href="#" class="footertexte">Nous contacter</a>
                         </div>
-                    </div>
+                    
 
                 </footer>
         </div>
