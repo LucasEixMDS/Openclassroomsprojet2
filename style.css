@@ -239,7 +239,7 @@ h1 {
 
   .search {
     width: 135px;
-    height: 45px ;
+    height: 43px ;
     border: 2px solid #F2F2F2;
     font-weight: bolder;
     
@@ -660,6 +660,17 @@ footer {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .activitesblockphoto{
+        height: 272px;
+        width :199px;
+        padding: 0px;
+    }
+
+    .activitesblockphoto img {
+        height: 206px;
+    }
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -687,6 +698,17 @@ h3{
 
 /*** Header mobile  ****/ 
 
+header {
+    padding: 20px 0px;
+}
+
+.header, nav {
+ margin-bottom: 13px;
+}
+
+nav a{
+    margin: 0px;
+}
 
 header nav {
     display: flex;
@@ -697,14 +719,30 @@ header nav {
 .logo{
    display: flex;
    justify-content: center;
+   padding-bottom: 15px;
+   margin-right: -31px;
 }
 
 header .headertouch{
     display: flex;
     justify-content: space-around;
     width: 100%;
+    font-size: 17px;
+    margin-left: -39px;
 }
 
+.heads{
+    border-bottom: solid #f2f2f2;
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+.heads:hover {
+    border-bottom: solid #0065FC;
+    border-top: none;
+    text-decoration: none;
+    width: 50%;
+}
 
 /***** titre + texte mobile ****/
 
@@ -870,6 +908,8 @@ main .populaires  {
 .activitesblockphoto img {
     height: 153px;
 }
+
+/**** footer mobile ****/
 
 footer {
     flex-direction: column;
