@@ -173,6 +173,13 @@ footer a:hover {
 
 /********* Header **********/
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 header img {
     width: 96px;
     height: 45px;
@@ -194,7 +201,6 @@ nav a {
   }
 
   .header, nav {
-    margin-bottom : 40px ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -325,7 +331,8 @@ h2{
 /******** Icon + texte *********/
 
 .info {
-    margin-bottom: 1%;
+    margin-bottom: 4%;
+    margin-top: 2%;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -630,6 +637,14 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+
+    .headertouch {
+        padding-right: 23px;
+    }
+
+
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -671,6 +686,11 @@ footer {
         height: 206px;
     }
 
+.titreh2 h2{
+    padding-right: 220px;
+    padding-left: 8px;
+}
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -700,21 +720,19 @@ h3{
 
 header {
     padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header, nav {
  margin-bottom: 13px;
+ width: 100%;
 }
 
 nav a{
     margin: 0px;
 }
 
-header nav {
-    display: flex;
-    flex-direction: column;
-  
-}
 
 .logo{
    display: flex;
@@ -723,25 +741,30 @@ header nav {
    margin-right: -31px;
 }
 
-header .headertouch{
+.headertouch{
     display: flex;
     justify-content: space-around;
     width: 100%;
     font-size: 17px;
-    margin-left: -39px;
+    padding-right: 0px;
+}
+
+.headertouch a{
+    display: flex;
+    justify-content: center;
 }
 
 .heads{
     border-bottom: solid #f2f2f2;
     padding-bottom: 20px;
-    width: 50%;
+    width: 100%;
+    text-decoration: none;
 }
 
 .heads:hover {
-    border-bottom: solid #0065FC;
+    border-bottom: solid 1px #0065FC;
     border-top: none;
     text-decoration: none;
-    width: 50%;
 }
 
 /***** titre + texte mobile ****/
@@ -903,6 +926,7 @@ main .populaires  {
 .activitesblockphoto{
     margin: 10px;
     height: 207px;
+    width: 95%;
 }
 
 .activitesblockphoto img {
