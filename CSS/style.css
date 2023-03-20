@@ -142,8 +142,9 @@ footer a:hover {
 }
 
 /**** animation survol souris les plus populaires *****/
-.card {
+.card a{
     cursor: pointer;
+    display: flex;
     text-decoration: none;
     color: black;
     transition: transform 0.2s;
@@ -521,6 +522,7 @@ body {
     margin : 10px 33px 0px 10px ;
 
 }
+
 
 .populaires-cards .card {
     display: flex;
