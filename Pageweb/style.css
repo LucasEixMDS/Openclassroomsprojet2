@@ -293,6 +293,7 @@ h2{
    flex-wrap:wrap;
    margin : 17px ;
    font-size: 14px ;
+   margin-left: 0px;
     }
 
 #categories .categoriesicon {
@@ -612,6 +613,10 @@ body {
 
 
          /***** Footer *******/
+
+.footerbooki {
+    display: flex;
+}
 
 footer {
     background-color: #f2f2f2;
