@@ -579,7 +579,8 @@ body {
     height:440px ;
     background-color: #ffffff;
     border-radius: 20px;
-    transition: transform 0.2s
+    transition: transform 0.2s;
+    margin: 5px;
 }
 
 .activitesblockphoto img {
@@ -623,7 +624,7 @@ footer {
 }
 
 .footercolonne {
-    margin-right: 280px;
+    margin-right:  25%;
     display: flex;
     flex-direction: column;
     font-size: 16px;
@@ -639,12 +640,17 @@ footer {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
+    .body{[
+        width: 100%;
+    ]}
 
     .headertouch {
         padding-right: 23px;
     }
 
-
+    .header{
+        width: 100%;
+    }
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -681,6 +687,7 @@ footer {
         height: 272px;
         width :199px;
         padding: 0px;
+        margin: 5px;
     }
 
     .activitesblockphoto img {
@@ -766,6 +773,8 @@ nav a{
     border-bottom: solid 1px #0065FC;
     border-top: none;
     text-decoration: none;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
 }
 
 /***** titre + texte mobile ****/
@@ -928,6 +937,7 @@ main .populaires  {
     margin: 10px;
     height: 207px;
     width: 95%;
+    margin: 5px;
 }
 
 .activitesblockphoto img {
