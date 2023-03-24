@@ -626,7 +626,7 @@ footer {
 }
 
 .footercolonne {
-    margin-right:  25%;
+    margin-right:  20%;
     display: flex;
     flex-direction: column;
     font-size: 16px;
@@ -642,9 +642,9 @@ footer {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    .body{[
+    .body{
         width: 100%;
-    ]}
+    }
 
     .headertouch {
         padding-right: 23px;
